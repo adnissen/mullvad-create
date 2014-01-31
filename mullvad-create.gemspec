@@ -5,6 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "Make a new Mullvad Trial account."
   s.description = "Quickly get a new Mullvad 3 hour Trial number."
   s.authors     = ["Andrew Nissen"]
+  s.executables << 'mullvad-create'
   s.email       = 'andrew_nissen@yahoo.com'
   s.files       = ["lib/mullvad-create.rb"]
   s.homepage    =
